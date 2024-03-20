@@ -63,6 +63,8 @@ public class TakenotesApplication {
 			notes2.addNotesCategories(notesCategories2);
 			categories1.addNotesCategories(notesCategories2);
 			notesCategoriesRepository.save(notesCategories2);
+
+			// solo back
 		};
 	}
 }
